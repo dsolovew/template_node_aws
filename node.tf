@@ -33,5 +33,5 @@ provider "aws" {
  
 resource "aws_key_pair" "ssh-key" {
   key_name = "ssh-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdcs5/2CNvoJIKTGQZ2EoAh/EhHBdw10O7EgG2G+gLm4jRL8GPz95fQ1KQy2jDfDzHfsFG6+sNlfQOAefj/HVntWhUZywMkFZiyieSTAX8mJkZnfA2XAkdBGCa3w9MknRd0h/bbfHtHB7aUd5awQvtROeVAt6TJ9A+36XSrC50XKAKST/WK/3jbzZz7YsU3inIzngSw6g1at3g/kPE988A38IbiEuxIOo7GW9SoS9vhLUeZWyrS36lvnlHo33rkvkCvuh/stiCuSaJx6E1Xvuzb3SIb3O0IhLhwJt6bAILZh0rvwSgboBuvvK7N1cl3o5qgJnYzpCKUlpP0jm85EWH"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCd1asempe53PptCHEZJ1Hp+biFNF4PHNkW2N7wIlCMJXAsLRQo6TsuMGe+W6B2t+dtMrj4czq5OBEUb/aS4rwVa/EtWeoBC7749xiZIyt0wUsLFEardw07hoazj96mFRZmpkJ3rd8CKU+grXMiSNwBQcVKR1rg3MVt/RwQdzC8t/ufNKqKwzkNvW/lSkl6WZjQU/ZdI9TKsapK5Xqjv9IBBXnfo5b7SVt56F+LOPNNSBKrJyR+LRyiADESfOITsqldeveeUIGC40Vwh48ZBeBzBbAwCX7wj5T80ThoNGTNdtWH/uQA1XI2TPs2e7GVv4Krn0aLfk4h3r+ol6+KN8aX"
 }
