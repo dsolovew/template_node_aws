@@ -7,11 +7,11 @@ provider "aws" {
    description = "security group"
      
    ingress  {
-     description = "inbound ssh"
+     description = "inbound"
      cidr_blocks = [ "0.0.0.0/0" ]
-     protocol = "tcp"
-     from_port = 22
-     to_port = 22
+     protocol = "-1"
+     from_port = 0
+     to_port = 0
    }
 
    egress  {
@@ -28,7 +28,7 @@ provider "aws" {
    instance_type = "t3.micro"
    vpc_security_group_ids  = [aws_security_group.myGroup1.id]
    key_name = "ssh-key"
-   count = 4
+   count = 2
  }
  
 resource "aws_key_pair" "ssh-key" {
