@@ -26,7 +26,7 @@ provider "aws" {
  resource "aws_instance" "node" {
    ami = "ami-00ddb0e5626798373"
    instance_type = "t3.micro"
-   vpc_security_group_ids  = [aws_security_group.myGroup1.id]
+   vpc_security_group_ids  = [aws_security_group.myGroup2.id]
    key_name = "ssh-key2"
    count = 2
  }
